@@ -1,0 +1,56 @@
+{
+  "name": "coc-apollo",
+  "version": "0.0.0-development",
+  "description": "Apollo GraphQL Extension",
+  "author": "Wilhelm Eek <helm@hey.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "coc.nvim",
+    "apollo"
+  ],
+  "engines": {
+    "coc": "^0.0.80"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "watch": "node esbuild.js --watch",
+    "build": "node esbuild.js",
+    "prepare": "node esbuild.js"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 80,
+    "semi": true
+  },
+  "devDependencies": {
+    "coc.nvim": "^0.0.80",
+    "esbuild": "^0.8.42",
+    "prettier": "^2.2.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.2",
+    "@types/node": "10.12.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "coc-apollo configuration",
+      "properties": {
+        "coc-apollo.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable coc-apollo extension"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "coc-apollo.Command",
+        "title": "coc-apollo command title"
+      }
+    ]
+  }
+}
