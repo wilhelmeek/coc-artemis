@@ -1,19 +1,13 @@
 # coc-apollo
 
-Apollo GraphQL Extension
+Apollo GraphQL Extension.
+
+Doesn't work yet. Don't use it.
 
 ## Install
 
 `:CocInstall coc-apollo`
 
-## Keymaps
-
-`nmap <silent> <C-l> <Plug>(coc-apollo-keymap)`
-
 ## License
 
 MIT
-
----
-
-> This extension is built with [create-coc-extension](https://github.com/fannheyward/create-coc-extension)

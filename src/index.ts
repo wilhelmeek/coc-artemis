@@ -7,7 +7,6 @@ import {
   window,
   workspace,
 } from 'coc.nvim';
-import DemoList from './lists';
 
 export async function activate(context: ExtensionContext): Promise<void> {
   window.showMessage(`coc-apollo works!`);
