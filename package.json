@@ -1,5 +1,5 @@
 {
-  "name": "coc-apollo",
+  "name": "coc-apollo-graphql",
   "version": "0.0.0-development",
   "description": "Apollo GraphQL Extension",
   "author": "Wilhelm Eek <helm@hey.com>",
