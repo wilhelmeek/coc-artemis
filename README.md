@@ -1,4 +1,4 @@
-# coc-apollo-graphql
+# coc-artemis
 
 Apollo GraphQL Extension for `coc.nvim`. 
 
