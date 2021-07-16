@@ -2,21 +2,18 @@ import {
   commands,
   CompleteResult,
   ExtensionContext,
-  listManager,
   sources,
   window,
   workspace,
 } from 'coc.nvim';
 
 export async function activate(context: ExtensionContext): Promise<void> {
-  window.showMessage(`coc-apollo works!`);
+  window.showMessage(`coc-artemis works!`);
 
   context.subscriptions.push(
     commands.registerCommand('apollo.Command', async () => {
       window.showMessage(`apollo Commands works!`);
     }),
-
-    listManager.registerList(new DemoList(workspace.nvim)),
 
     sources.createSource({
       name: 'apollo completion source', // unique id
@@ -50,11 +47,11 @@ async function getCompletionItems(): Promise<CompleteResult> {
     items: [
       {
         word: 'TestCompletionItem 1',
-        menu: '[coc-apollo]',
+        menu: '[coc-artemis]',
       },
       {
         word: 'TestCompletionItem 2',
-        menu: '[coc-apollo]',
+        menu: '[coc-artemis]',
       },
     ],
   };
