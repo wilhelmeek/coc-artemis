@@ -10,6 +10,6 @@ Currently _this works_, but doesn't yet have any features beyond those already s
 
 `:CocInstall coc-artemis`
 
-## License
+## Contributing
 
-MIT
+Please do.
