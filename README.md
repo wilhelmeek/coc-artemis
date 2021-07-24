@@ -1,8 +1,16 @@
 # coc-artemis
 
-Apollo GraphQL Extension for `coc.nvim`. 
+Apollo GraphQL Extension for `coc.nvim`.
 
-Doesn't work yet. Don't use it.
+Currently _this works_, but doesn't yet have any features beyond those already supported by most LSP clients. Issues/Pull Requests welcome to introduce additional functionality.
+
+---
+
+**NOTE**
+
+`apollo-language-server` currently debounces code actions and autocompletions. If you notice inconsistent behaviour, this may likely be the cause.
+
+---
 
 ## Install
 
