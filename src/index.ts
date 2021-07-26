@@ -19,7 +19,16 @@ function decorate(m: string): string {
   return `[${artemis}] ${m}`;
 }
 
+type Config = Partial<{
+  enabled: boolean;
+}>;
+
 export async function activate(context: ExtensionContext): Promise<void> {
+  const config = workspace.getConfiguration().get<Config>(artemis, {});
+  if (!config.enabled) {
+    return;
+  }
+
   const serverModule = context.asAbsolutePath(
     join('node_modules/apollo-language-server/lib', 'server.js')
   );
