@@ -10,6 +10,10 @@ Currently _this works_, but doesn't yet have any features beyond those already s
 
 `:CocInstall coc-artemis`
 
+## Configuring
+
+Relies on the presence of an `apollo.config.js` file in your workspace. See the [VSCode Extension Documentation](https://www.apollographql.com/docs/devtools/editor-plugins/#setting-up-an-apollo-config) for more info.
+
 ## Contributing
 
 Please do.
