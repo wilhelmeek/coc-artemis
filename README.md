@@ -6,7 +6,7 @@ Currently _this works_, but doesn't yet have any features beyond those already s
 
 > :warning: **The Apollo Language Server currently debounces code actions and auto-completions.** If you notice inconsistent behaviour, this may likely be the cause. See [this pull request](https://github.com/apollographql/apollo-tooling/pull/1593) if you're keen to fix.
 
-## Install
+## Installing
 
 `:CocInstall coc-artemis`
 
