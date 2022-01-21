@@ -2,8 +2,6 @@
 
 Apollo GraphQL Extension for `coc.nvim`.
 
-Currently _this works_, but doesn't yet have any features beyond those already supported by most LSP clients.
-
 ## Installing
 
 `:CocInstall coc-artemis`
