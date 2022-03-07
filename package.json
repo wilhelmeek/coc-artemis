@@ -1,6 +1,6 @@
 {
   "name": "coc-artemis",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Apollo GraphQL Extension for coc.nvim",
   "author": "Wilhelm Eek <helm@hey.com>",
   "license": "MIT",
