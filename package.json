@@ -1,6 +1,6 @@
 {
   "name": "coc-artemis",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Apollo GraphQL Extension for coc.nvim",
   "author": "Wilhelm Eek <helm@hey.com>",
   "license": "MIT",
@@ -49,6 +49,6 @@
     "commands": []
   },
   "dependencies": {
-    "apollo-language-server": "^1.26.3"
+    "apollo-language-server": "^1.26.9"
   }
 }
